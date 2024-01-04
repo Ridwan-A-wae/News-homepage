@@ -1,0 +1,233 @@
+body {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0 10rem;
+  padding-top: 0.5rem;
+  padding-bottom: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.navBar ul {
+  display: flex;
+}
+
+.navBar ul li {
+  list-style: none;
+}
+
+.navBar ul li p {
+  display: flex;
+  align-items: center;
+  margin-left: 36px;
+  color: #8f8f8f;
+  cursor: pointer;
+  transition: all ease 150ms;
+}
+.navBar ul li p:hover {
+  color: #f15d51;
+}
+
+.contentCon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 550px;
+  box-sizing: border-box;
+  margin-bottom: 4.5rem;
+}
+
+.contentCon .leftContentCon {
+  width: 67%;
+  display: grid;
+}
+
+.contentCon .leftContentCon .leftContent {
+  display: flex;
+  margin: 30px 0;
+  height: 89%;
+}
+
+.contentCon .leftContentCon img {
+  width: 100%;
+}
+
+.contentCon .leftContentCon .thebrightGroup {
+  width: 50%;
+}
+
+.contentCon .leftContentCon .thebrightGroup p {
+  font-size: 60px;
+  font-weight: 700;
+  margin: -5px 0;
+  color: #131313;
+}
+
+.contentCon .leftContentCon .rightContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 97%;
+}
+
+.contentCon .leftContentCon .rightContent .weGroup .we {
+  color: #8f8f8f;
+  margin: 5px 0;
+}
+
+.contentCon .leftContentCon .rightContent button {
+  color: white;
+  background-color: #f15d51;
+  width: 60%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 12px;
+  border: none;
+  transition: all ease 300ms;
+  cursor: pointer;
+  margin-bottom: -5px;
+}
+
+.contentCon .leftContentCon .rightContent button:hover {
+  color: white;
+  background-color: #131313;
+}
+
+.more {
+  margin-left: 8px;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.contentCon .rightContentCon {
+  display: flex;
+  justify-content: start;
+  box-sizing: border-box;
+  flex-direction: column;
+  background-color: #00001a;
+  width: 30%;
+  height: 550px;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.contentCon .rightContentCon .new {
+  color: #f1b25d;
+  font-size: 42px;
+  font-weight: 600;
+  margin-top: -5px;
+}
+
+.contentCon .rightContentCon .newContent {
+  margin-top: -25px;
+}
+
+.contentCon .rightContentCon .newContent .hNewcontent {
+  border-bottom: 1px solid grey;
+  margin-bottom: 5px;
+  height: 125px;
+}
+
+.contentCon .rightContentCon .newContent .hNewcontent .head {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  margin-top: 15px;
+}
+
+.contentCon .rightContentCon .newContent .hNewcontent-3 .head {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  margin-top: 15px;
+}
+
+.contentCon .rightContentCon .newContent .hNewcontent p {
+  color: #9c9c9c;
+  font-size: 16px;
+}
+
+.contentCon .rightContentCon .newContent .hNewcontent .pp {
+  color: #9c9c9c;
+  margin-top: -10px;
+}
+
+.contentCon .rightContentCon .newContent .hNewcontent-3 {
+  color: #9c9c9c;
+  font-size: 16px;
+}
+
+.contentCon .rightContentCon .newContent .hNewcontent-3 .pp {
+  color: #9c9c9c;
+  font-size: 16px;
+  margin-top: -10px;
+}
+
+.noBorderBottom {
+  border-bottom: none;
+}
+
+.footContent {
+    display: flex;
+}
+
+.footContentCon {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footContentCon .footContent img {
+    display: flex;
+    width: 110px;
+}
+
+
+.footContentRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin: 0 10px;
+}
+
+.number {
+    font-size: 36px;
+    font-weight: 600;
+    color: #8f8f8f;
+    margin-bottom: 10px;
+}
+
+.footHead {
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    transition: all ease 150ms;
+    cursor: pointer;
+}
+
+.footHead:hover {
+    color: #f15d51;
+}
+
+.footFoot {
+    font-size: 14px;
+    color: #8f8f8f;
+    margin-top: -5px;
+}
+
+.footFoot1 {}
